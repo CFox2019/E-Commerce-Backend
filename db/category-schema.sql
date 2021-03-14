@@ -1,0 +1,9 @@
+USE ecommerce_db;
+
+DROP TABLE IF EXISTS category;
+
+CREATE TABLE category(
+id INT AUTO_INCREMENT NOT NULL,
+category_name VARCHAR(40) NOT NULL,
+PRIMARY KEY(id)
+)

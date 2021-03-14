@@ -1,0 +1,9 @@
+USE ecommerce_db;
+
+DROP TABLE IF EXISTS tag;
+
+CREATE TABLE tag(
+id INT AUTO_INCREMENT NOT NULL,
+tag_name VARCHAR(40),
+PRIMARY KEY(id)
+)
